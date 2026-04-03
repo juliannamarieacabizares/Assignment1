@@ -1,14 +1,29 @@
 package com.codechum.assignment1;
 
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.control.Label;
+import javafx.scene.control.*;
 
-public class HelloController {
+public class LoginFormController {
+    public Button loginBtn;
     @FXML
-    private Label welcomeText;
+    private TextField usernameText;
+    @FXML
+    private PasswordField passwordField;
 
     @FXML
-    protected void onHelloButtonClick() {
-        welcomeText.setText("Welcome to JavaFX Application!");
+    public void onLoginBtnClick(ActionEvent actionEvent) {
+        String user = usernameText.getText();
+        String pass = passwordField.getText();
+
+        Alert statusDialog = new Alert(Alert.AlertType.INFORMATION);
+        statusDialog.setTitle("Status");
+        statusDialog.setHeaderText(null);
+        if (user.equals("admin") && pass.equals("admin")) {
+            statusDialog.setContentText("Login Success!");
+        } else {
+            statusDialog.setContentText("Login Failed!");
+        }
+        statusDialog.showAndWait();
     }
 }
