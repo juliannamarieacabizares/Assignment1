@@ -9,10 +9,6 @@ import java.io.IOException;
 
 public class CharacterRemoverApplication extends Application {
 
-    public static void main(String[] args) {
-        launch(args);
-    }
-
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(CharacterRemoverApplication.class.getResource("remover-view.fxml"));
