@@ -17,7 +17,7 @@ public class CharacterCounterController {
         String text = messageTextArea.getText();
         String search = characterTextField.getText();
         if(search.isEmpty()){
-            countLabel.setText("Count = 0");
+            countLabel.setText("0");
             return;
         }
 
