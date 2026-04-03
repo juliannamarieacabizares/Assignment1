@@ -6,35 +6,33 @@
 <?import javafx.scene.text.*?>
 
 <AnchorPane prefHeight="324.0" prefWidth="384.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.codechum.assignment1.CharacterCounterController">
-   <children>
-      <TextArea fx:id="messageTextArea" layoutX="32.0" layoutY="22.0" prefHeight="184.0" prefWidth="323.0" />
-      <TextField fx:id="characterTextField" alignment="TOP_LEFT" layoutX="137.0" layoutY="219.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="30.0" prefWidth="102.0">
-         <font>
+    <TextArea fx:id="messageTextArea" layoutX="32.0" layoutY="22.0" prefHeight="184.0" prefWidth="323.0" />
+    <TextField fx:id="characterTextField" alignment="TOP_LEFT" layoutX="137.0" layoutY="219.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="30.0" prefWidth="102.0">
+        <font>
             <Font size="14.0" />
-         </font>
-      </TextField>
-      <Button fx:id="countButton" alignment="CENTER" contentDisplay="TOP" layoutX="258.0" layoutY="215.0" lineSpacing="2.0" mnemonicParsing="false" onAction="#onCountButtonClick" prefHeight="37.0" prefWidth="82.0" text="Count">
-         <font>
+        </font>
+    </TextField>
+    <Button fx:id="countButton" alignment="CENTER" contentDisplay="TOP" layoutX="258.0" layoutY="215.0" lineSpacing="2.0" mnemonicParsing="false" onAction="#onCountButtonClick" prefHeight="37.0" prefWidth="82.0" text="Count">
+        <font>
             <Font size="14.0" />
-         </font>
-         <effect>
+        </font>
+        <effect>
             <Blend />
-         </effect>
-      </Button>
-      <Label fx:id="countLabel" contentDisplay="CENTER" layoutX="81.0" layoutY="259.0" prefHeight="22.0" prefWidth="132.0">
-         <font>
+        </effect>
+    </Button>
+    <Label fx:id="countLabel" contentDisplay="CENTER" layoutX="81.0" layoutY="259.0" prefHeight="22.0" prefWidth="132.0">
+        <font>
             <Font size="15.0" />
-         </font>
-      </Label>
-      <Label layoutX="32.0" layoutY="224.0" text="Enter Character:">
-         <font>
+        </font>
+    </Label>
+    <Label layoutX="32.0" layoutY="224.0" text="Enter Character:">
+        <font>
             <Font size="14.0" />
-         </font>
-      </Label>
-      <Label layoutX="32.0" layoutY="261.0" text="Count:">
-         <font>
+        </font>
+    </Label>
+    <Label layoutX="32.0" layoutY="261.0" text="Count:">
+        <font>
             <Font size="14.0" />
-         </font>
-      </Label>
-   </children>
+        </font>
+    </Label>
 </AnchorPane>

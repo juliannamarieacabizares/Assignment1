@@ -5,12 +5,10 @@
 
 
 <AnchorPane prefHeight="185.0" prefWidth="360.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.codechum.assignment1.CharacterRemoverController">
-   <children>
-      <Label fx:id="textLabel" layoutX="52.0" layoutY="27.200000762939453" prefHeight="18.0" prefWidth="261.0" text="ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789" />
-      <CheckBox fx:id="vowelCheckbox" layoutX="52.0" layoutY="63.0" mnemonicParsing="false" text="Vowels" />
-      <CheckBox fx:id="consonantCheckbox" layoutX="140.8000030517578" layoutY="63.20000076293945" mnemonicParsing="false" text="Consonants" />
-      <CheckBox fx:id="numberCheckbox" layoutX="242.0" layoutY="63.0" mnemonicParsing="false" text="Numbers" />
-      <Button fx:id="removeButton" alignment="CENTER" contentDisplay="CENTER" layoutX="153.60000610351562" layoutY="98.4000015258789" mnemonicParsing="false" onAction="#onRemoveButtonClick" text="Remove" />
-      <Button fx:id="restoreButton" alignment="CENTER" contentDisplay="CENTER" layoutX="154.0" layoutY="139.0" mnemonicParsing="false" onAction="#onRestoreButtonClick" text="Restore" />
-   </children>
+    <Label fx:id="textLabel" layoutX="52.0" layoutY="27.200000762939453" prefHeight="18.0" prefWidth="261.0" text="ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789" />
+    <CheckBox fx:id="vowelCheckbox" layoutX="52.0" layoutY="63.0" mnemonicParsing="false" text="Vowels" />
+    <CheckBox fx:id="consonantCheckbox" layoutX="140.8000030517578" layoutY="63.20000076293945" mnemonicParsing="false" text="Consonants" />
+    <CheckBox fx:id="numberCheckbox" layoutX="242.0" layoutY="63.0" mnemonicParsing="false" text="Numbers" />
+    <Button fx:id="removeButton" alignment="CENTER" contentDisplay="CENTER" layoutX="153.60000610351562" layoutY="98.4000015258789" mnemonicParsing="false" onAction="#onRemoveButtonClick" text="Remove" />
+    <Button fx:id="restoreButton" alignment="CENTER" contentDisplay="CENTER" layoutX="154.0" layoutY="139.0" mnemonicParsing="false" onAction="#onRestoreButtonClick" text="Restore" />
 </AnchorPane>
